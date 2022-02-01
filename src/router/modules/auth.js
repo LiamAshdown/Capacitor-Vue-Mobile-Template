@@ -6,7 +6,7 @@ import LoginPage from '@/pages/auth/Login'
 
 export default [
   {
-    path: '/',
+    path: '/login',
     component: LoginPage,
     meta: {
       layout: NotAuthenticatedLayout

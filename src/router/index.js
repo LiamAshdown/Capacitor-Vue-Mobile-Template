@@ -9,12 +9,14 @@ import middlewarePipeline from '@/router/middlewarePipeline'
 
 // Modules
 import authModule from './modules/auth'
+import generalModule from './modules/general'
 
 Vue.use(VueRouter)
 
 // Add our routes
 const routes = [
-  ...authModule
+  ...authModule,
+  ...generalModule
 ]
 
 const router = new VueRouter({
